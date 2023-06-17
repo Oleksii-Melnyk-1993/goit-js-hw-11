@@ -6,7 +6,7 @@ export const refs = {
   spinner: document.querySelector('.js-spinner'),
   body: document.querySelector('body'),
   btnUp: document.getElementById('to-top-btn'),
-  btnWrapper: document.querySelector('.btn-up'),
+  btnUpWrapper: document.querySelector('.btn-up'),
   like: document.querySelector('.heart'),
   searchInput: document.querySelector('.search-form-input'),
 };
