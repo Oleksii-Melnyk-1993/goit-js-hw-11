@@ -79,11 +79,11 @@ a {
 
 .btn-up-text {
   margin-bottom: 0.9375rem;
-  font-family: inherit;
+  font-family: 'PT Sans', sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
   text-align: center;
-  color: #ae1100;
+  color: #27296d;
   text-shadow: 0.5px 0.5px 0.5px rgb(255, 255, 255),
     0.7px 0.7px 0.7px rgb(0, 0, 0);
 }
@@ -116,7 +116,7 @@ a {
 }
 
 .icon-arrow {
-  fill: #ae1100;
+  fill: #27296d;
 }
 
 @keyframes animate {
