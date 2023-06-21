@@ -46,7 +46,7 @@ const loadMorePhotos = async function (entries, observer) {
         refs.gallery.insertAdjacentHTML('beforeend', markup);
 
         // const showMore = pixaby.hasMorePhotos();
-        if (pixaby.hasMorePhotos) {
+        if (pixaby.hasMorePhotos()) {
           const lastItem = document.querySelector('.gallery a:last-child');
           observer.observe(lastItem);
         } else
